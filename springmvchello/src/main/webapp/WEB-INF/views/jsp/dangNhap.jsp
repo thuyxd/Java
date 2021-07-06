@@ -27,16 +27,23 @@
    				background-color: #04AA6D;
     			color: white;
    				padding: 14px 20px;
-    			margin: 8px 0;
+    			margin: 0 auto;
+    			margin-top: 30px;
     			border: none;
     			cursor: pointer;
-    			width: 50%;
+    			width: 200px;
   			} 
   			.container {
   				text-align: center;
+  				margin-top: 40px;
   			}
   			h2 {
   				text-align: center;
+  				margin-top: 40px;
+  			}
+  			
+  			.don {
+  			margin-top: 40px;
   			}
     	</style> 	
     </head>
@@ -51,9 +58,11 @@
               <input type="password" placeholder="Enter your password" >
           	  <br/>
               <button type="submit"> Login</button>
-              <br/>
+           
+              <div class="don">
               If you dont have account, please click
               <a href ="/SpringMVCHello/dangki">register<a/> 
+              </div>
             </div>
          </form>
     </body>

@@ -9,10 +9,9 @@
        
   		/* Full-width inputs */
   			input[type=text], input[type=password] {
-    			width: 50%;
+    			width: 450px;
     			padding: 12px 20px;
-    			margin: 8px 0;
-    			display: inline-block;
+    			margin: 8px 0;			
     			border: 1px solid #ccc;
     			box-sizing: border-box;
   			}
@@ -21,30 +20,34 @@
   				width: 450px;
   				padding: 12px 20px;
     			margin: 8px 0;
-    			display: inline-block;
     			border: 1px solid #ccc;
     			box-sizing: border-box;
   			}
   
+  			
   		/* Set a style for all buttons */
   		 	button {
    				background-color: #04AA6D;
     			color: white;
    				padding: 14px 20px;
-    			margin: 8px 0;
+    			margin: 0 auto;
+    			margin-top: 20px;
+    			margin-left: 130px;
     			border: none;
     			cursor: pointer;
-    			width: 50%;
+    			width: 200px;
   			} 
   			
   			.container {
   				margin: 0 auto;
-  				width: 1000px;
-  				text-align: center;
+   				width: 300px; 
+    			padding: 10px;
 			}
 			h2 {
 				text-align: center;
+				margin-left: 130px;
 			}
+		
     	</style> 	
     </head>
     <body>
@@ -54,13 +57,19 @@
               <label><b>Username</b></label>
               <input type="text" placeholder="Enter your name" >
           	  <br/>
+          	  <label><b>Email</b></label>
+              <input type="text" placeholder="Enter your email" >
+          	  <br/>
+          	  <label><b>Phone number</b></label>
+              <input type="text" placeholder="Enter your phone number" >
+          	  <br/>
               <label><b>Password</b></label>
               <input type="password" placeholder="Enter your password" >
           	  <br/>
           	  <label><b>Repeat password </b></label>
               <input type="passwordaaaaa" placeholder="Enter your password again" >
               <br/>
-              <button type="submit"> OK</button> 
+              <button type="submit"> Register</button> 
             </div>
           </form> 
     </body>
