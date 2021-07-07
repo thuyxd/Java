@@ -54,21 +54,32 @@
         <h2>Register</h2>
         <form >         
             <div class="container">
+              <div>
               <label><b>Username</b></label>
               <input type="text" placeholder="Enter your name" >
-          	  <br/>
+          	  </div>
+          	  
+          	  <div>
           	  <label><b>Email</b></label>
               <input type="text" placeholder="Enter your email" >
-          	  <br/>
+          	  </div>
+          	  
+          	  <div>
           	  <label><b>Phone number</b></label>
               <input type="text" placeholder="Enter your phone number" >
-          	  <br/>
+          	  </div>
+          	  
+          	  <div>
               <label><b>Password</b></label>
               <input type="password" placeholder="Enter your password" >
-          	  <br/>
+          	  </div>
+          	  
+          	  <div>
           	  <label><b>Repeat password </b></label>
               <input type="passwordaaaaa" placeholder="Enter your password again" >
-              <br/>
+              </div>
+              
+              
               <button type="submit"> Register</button> 
             </div>
           </form> 

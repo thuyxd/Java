@@ -8,17 +8,15 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class UserController {
 
 	@RequestMapping("/")
-	public String index() {
-		return "dangNhap";
+	public String login() {
+		return "login";
 	}
 
-	@RequestMapping(value = "/hello", method = RequestMethod.GET)
-	public String hello() {
-		return "hello";
-	}
+
+
 	
 	@RequestMapping("/dangki")
-	public String dangKi() {
+	public String register() {
 		return "register";
 	}
 
