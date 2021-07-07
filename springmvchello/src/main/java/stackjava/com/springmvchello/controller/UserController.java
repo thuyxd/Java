@@ -12,9 +12,11 @@ public class UserController {
 		return "login";
 	}
 
+	@RequestMapping("/homepage")
+	public String screenhomepage() {
+		return "screen-home-page";
+	}
 
-
-	
 	@RequestMapping("/dangki")
 	public String register() {
 		return "register";

@@ -47,6 +47,14 @@
   			.don {
   			margin-top: 40px;
   			}
+  			
+  			.loginbutton {
+  				width: 200px;
+  				height: 50px;
+  				background-color: #04AA6D;
+  				margin: 0 auto;
+  				margin-top : 20px;
+  			}
     	</style> 	
     </head>
     <body>
@@ -64,8 +72,12 @@
               <input type="password" placeholder="Enter your password" >
           	  </div>
           	  
-              <button type="submit"> Login</button>
-           
+        
+              
+              <div class="loginbutton">
+           	  <a href ="/SpringMVCHello/homepage">Login<a/>
+              </div>
+              
               <div class="don">
               If you dont have account, please click
               <a href ="/SpringMVCHello/dangki">register<a/> 
