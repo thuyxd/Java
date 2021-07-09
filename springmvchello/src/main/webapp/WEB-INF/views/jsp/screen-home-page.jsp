@@ -1,13 +1,13 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
 <title>screen-home-page</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf -8">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
         * {
@@ -56,7 +56,7 @@
             color: black;
         }
 
-        .topnav .search-container {
+        .topnav .search-container0 {
             float: right;
         }
 
@@ -67,7 +67,7 @@
             border: none;
         }
 
-        .topnav .search-container button {
+        .topnav .search-container0 button {
             float: right;
             padding: 6px 10px;
             margin-top: 8px;
@@ -77,7 +77,7 @@
             cursor: pointer;
         }
 
-        .topnav .search-container button:hover {
+        .topnav .search-container0 button:hover {
             background: #ccc;
         }
 
@@ -88,7 +88,7 @@
 
             .topnav a,
             .topnav input[type=text],
-            .topnav .search-container button {
+            .topnav .search-container1 button {
                 float: none;
                 display: block;
                 text-align: left;
@@ -111,12 +111,14 @@
         }
 
         .column {
-  float: left;
-  width: 16.6%;
-  padding: 0px;
-  height: 250px; /* Should be removed. Only for demonstration */
-  transition: transform .2s;
-}
+  			float: left;
+  			width: 16.6%;
+  			padding: 0px;
+  			height: 250px; /* Should be removed. Only for demonstration */
+  			transition: transform .2s;
+  			margin-bottom: 25px;
+            margin-top: 20px;
+		}
 
 .column :hover {
     background-color:  orange;
@@ -144,6 +146,11 @@
     padding: 5px 5px 5px 5px;
 }
 
+
+
+.row3 {
+    margin-top: 25px;
+}
         /* .search-container {
             width: 40%;
             background-color: white;
@@ -161,7 +168,7 @@
         <a href="#contact">Contact</a>
         <a href="#about">About</a>
 
-        <div class="search-container">
+        <div class="search-container0">
             <form>
                 <button type="submit"><i class="fa fa-search"></i></button>
             </form>
@@ -171,10 +178,10 @@
 
     <div class="imag">
         <div class="hienthi">
-            <h1 id="home">Lưu giữ truyền thống </h1>
-            <h1 id="home">Kết nối hiện đại </h1>
-            <div class="search-container">
-                <form action="/action_page.php">
+            <h1 id="home">Keep the tradition </h1>
+            <h1 id="home">Modern connection </h1>
+            <div class="search-container1">
+                <form >
                     <input type="text" placeholder="Search.." name="search">
                     <button type="submit"><i class="fa fa-search"></i></button>
                 </form>
@@ -290,5 +297,66 @@
  
      </div>
  </div>
+ 
+ 
+ 
+ <div>
+    <h1 class="menu2">Party : MÓN KHAI VỊ - SẮC MÀU - 60 phút </h1>
+</div>
+
+<div class="row3" style="background-color: white;">
+<div class="column" style="background-color: whitesmoke;" id="c1"> 
+ <div >
+     <div class="w3-container">
+       <img src="https://cdn.daynauan.info.vn/wp-content/uploads/2019/05/thuc-don-chay.jpg" style="width:100%; height: 180px;">
+       <p >Khai vị song hỷ<br><b>$1.99</b></p>
+ </div>
+ 
+</div>
+</div>
+
+<div class="column" style="background-color:whitesmoke;" id="c2">
+ <div class="w3-container">
+     <img src="https://static.riviu.co/960/image/2020/12/30/7e76bb1f749d7b1d064b63686e4c311d_output.jpeg" style="width:100%; height: 180px;">
+     <p>Chả hoàng kim<br><b>$1.99</b></p>
+ </div>
+ 
+</div>
+
+<div class="column" style="background-color:whitesmoke;" id="c3">
+
+ <div class="w3-container">
+     <img src="https://cf.shopee.vn/file/30e061ca06bbf9fefd2edcd1e312dcd7" style="width:100%; height: 180px;">
+     <p>Hải sản tam giác vàng<br><b>$10.19</b></p>
+ </div>
+
+</div>
+
+<div class="column" style="background-color:whitesmoke;" id="c4">
+ <div class="w3-container">
+     <img src="https://benhvienthammykangnam.vn/wp-content/uploads/2020/04/cach-lam-salad-ngon.jpg" style="width:100%; height: 180px;">
+     <p>Salad tôm<br><b>$8.99</b></p>
+ </div>
+ 
+</div>
+
+<div class="column" style="background-color:whitesmoke;" id="c5">
+ <div class="w3-container">
+     <img src="https://cdn.tgdd.vn/Files/2019/11/15/1219188/3-cong-thuc-lam-salad-ca-ngu-cuc-don-gian-giau-dinh-duong-lam-nhanh-6.jpg" style="width:100%; height: 180px;">
+     <p>Salad cá ngừ<br><b>$2.99</b></p>
+ </div>
+
+</div>
+
+<div class="column" style="background-color: whitesmoke;" id="c6">
+ <div class="w3-container">
+     <img src="https://www.nhahangquangon.com/wp-content/uploads/2018/09/MON-GOI-NGON-NHA-HANG-7.jpg" style="width:100%; height: 180px;">
+     <p>Gỏi củ hũ dừa tôm thịt<br><b>$3.99</b></p>
+ </div>
+
+</div>
+</div>
+
+</div>
 </body>
 </html>

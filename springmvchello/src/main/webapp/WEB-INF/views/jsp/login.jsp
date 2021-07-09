@@ -48,13 +48,6 @@
   			margin-top: 40px;
   			}
   			
-  			.loginbutton {
-  				width: 200px;
-  				height: 50px;
-  				background-color: #04AA6D;
-  				margin: 0 auto;
-  				margin-top : 20px;
-  			}
     	</style> 	
     </head>
     <body>
@@ -75,7 +68,9 @@
         
               
               <div class="loginbutton">
-           	  <a href ="/SpringMVCHello/homepage">Login<a/>
+           	  
+         	  <button onclick="window.location.href='/SpringMVCHello/homepage'">Login</button>
+					
               </div>
               
               <div class="don">
