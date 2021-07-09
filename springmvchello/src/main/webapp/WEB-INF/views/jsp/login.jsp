@@ -47,6 +47,7 @@
   			.don {
   			margin-top: 40px;
   			}
+  			
     	</style> 	
     </head>
     <body>
@@ -64,8 +65,14 @@
               <input type="password" placeholder="Enter your password" >
           	  </div>
           	  
-              <button type="submit"> Login</button>
-           
+        
+              
+              <div class="loginbutton">
+           	  
+         	  <button onclick="window.location.href='/SpringMVCHello/homepage'">Login</button>
+					
+              </div>
+              
               <div class="don">
               If you dont have account, please click
               <a href ="/SpringMVCHello/dangki">register<a/> 
