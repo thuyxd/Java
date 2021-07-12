@@ -185,7 +185,7 @@ form.example button {
 }
 
 .links ul li a {
-	color: white;
+	color: black;
 	text-decoration: none;
 	margin-bottom: 10px;
 	display: inline-block;
@@ -193,10 +193,6 @@ form.example button {
 
 .links ul li :hover {
 	color: orange;
-}
-
-.footer {
-    color: white;
 }
 </style>
 
@@ -478,59 +474,61 @@ form.example button {
 	</div>
 
 
-<footer>
-        
-        <div class="row4" style="background-color: white;">
-            <div class="columnf" style="background-color:black;" id="c1f">
-                <div class="noi-dung links">
-                    <h2 class="footer">Thông tin</h2>
-                    <ul>
-                        <li><a href="#">Về chúng tôi</a></li>
-                        <li><a href="#">Chính sách bảo mật</a></li>
-                        <li><a href="#">Điều khoản sử dụng</a></li>
-                        <li><a href="#">Chính sách đổi trả</a></li>
-                        <li><a href="#">Hướng dẫn đặt hàng</a></li>
-                    </ul>
-                </div>
-    
-                </div>
-            </div>
-    
-            <div class="columnf" style="background-color: black;" id="c2f">
-                <div class="noi dung cot 2 links">
-                    <h2 class="footer">Dịch vụ nổi bật</h2>
-                    <ul>
-                        <li><a href="#">Món lẻ</a></li>
-                        <li><a href="#">SAS GIAO MÓN, DỤNG CỤ, PHỤC VỤ, THU DỌN, VỆ SINH</a></li>
-                        <li><a href="#">TIỆC TRỌN GÓI LƯU ĐỘNG BẤT KÌ ĐÂU</a></li>
-                    </ul>
-                </div>
-    
-            </div>
-    
-            <div class="columnf" style="background-color: black;" id="c3f">
-    
-                <div class="noi dung cot 3 links">
-                    <h2 class="footer">Hỗ trợ khách hàng</h2>
-                    <ul>
-                        <li><a href="#">Thông tin chuyển khoản</a></li>
-                        <li><a href="#">Phí giao hàng</a></li>
-                        <li><a href="#">Câu hỏi thường gặp</a></li>
-                        <li><a href="#">Bảng tin công ty</a></li>
-                        <li><a href="#">Video</a></li>
-                    </ul>
-                </div>
-    
-            </div>
-    
-            <div class="columnf" style="background-color: black;" id="c4f">
-                        <h2 class="footer">Đăng kí nhận tin ưu đãi giảm giá</h2>
-                        <form class="form">
-                            <input type="email" class="form__field" placeholder="Đăng Ký Subscribe Email" />
-                            <button type="button" class="btn btn--primary  uppercase">Gửi</button>
-                        </form>
-            </div>
+	<footer>
 
-    </footer>
+		<div class="row4" style="background-color: white;">
+			<div class="columnf" style="background-color: white;" id="c1f">
+				<div class="noi-dung links">
+					<h2>Thông tin</h2>
+					<ul>
+						<li><a href="#">Về chúng tôi</a></li>
+						<li><a href="#">Chính sách bảo mật</a></li>
+						<li><a href="#">Điều khoản sử dụng</a></li>
+						<li><a href="#">Chính sách đổi trả</a></li>
+						<li><a href="#">Hướng dẫn đặt hàng</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="columnf" style="background-color: white;" id="c2f">
+			<div class="noi dung cot 2 links">
+				<h2>Dịch vụ nổi bật</h2>
+				<ul>
+					<li><a href="#">Món lẻ</a></li>
+					<li><a href="#">SAS GIAO MÓN, DỤNG CỤ, PHỤC VỤ, THU DỌN,
+							VỆ SINH</a></li>
+					<li><a href="#">TIỆC TRỌN GÓI LƯU ĐỘNG BẤT KÌ ĐÂU</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="columnf" style="background-color: white;" id="c3f">
+
+			<div class="noi dung cot 3 links">
+				<h2>Hỗ trợ khách hàng</h2>
+				<ul>
+					<li><a href="#">Thông tin chuyển khoản</a></li>
+					<li><a href="#">Phí giao hàng</a></li>
+					<li><a href="#">Câu hỏi thường gặp</a></li>
+					<li><a href="#">Bảng tin công ty</a></li>
+					<li><a href="#">Video</a></li>
+				</ul>
+			</div>
+
+		</div>
+
+		<div class="columnf" style="background-color: white;" id="c4f">
+			<h2>Đăng kí nhận tin ưu đãi giảm giá</h2>
+			<form class="form">
+				<input type="email" class="form__field"
+					placeholder="Đăng Ký Subscribe Email" />
+				<button type="button" class="btn btn--primary  uppercase">Gửi</button>
+			</form>
+		</div>
+
+	</footer>
 </body>
 </html>
