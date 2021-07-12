@@ -204,7 +204,7 @@ form.example button {
 <body>
 
 	<div class="topnav">
-		<a href="#home">Home</a> <a href="#best choice">Best Choice</a> <a
+		<a href="/SpringMVCHello/homepage">Home</a> <a href="#best choice">Best Choice</a> <a
 			href="#news">News</a> <a href="#contact">Contact</a> <a href="#about">About</a>
 
 		<div>
@@ -249,11 +249,13 @@ form.example button {
 		<div class="column" style="background-color: whitesmoke;" id="c1">
 			<div>
 				<div class="w3-container">
+					<a href="/SpringMVCHello/chicken">
 					<img
 						src="http://streaming1.danviet.vn/upload/4-2017/images/2017-12-22/Cach-lam-ga-nuong-mat-ong-vang-ong-thom-nuc-cho-dem-tiec-Giang-sinh-_mg_8586-1513947107-width660height440.jpg"
 						style="width: 100%; height: 180px;">
+					</a>
 					<p>
-						Thịt gà<br> <b>$14.99</b>
+					Thịt gà<br> <b>$14.99</b>
 					</p>
 				</div>
 

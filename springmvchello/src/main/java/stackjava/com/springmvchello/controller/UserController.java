@@ -9,6 +9,7 @@ public class UserController {
 
 	@RequestMapping("/")
 	public String login() {
+		
 		return "login";
 	}
 
@@ -22,4 +23,8 @@ public class UserController {
 		return "register";
 	}
 
+	@RequestMapping("/chicken")
+	public String chicken() {
+		return "Chicken";
+	}
 }
